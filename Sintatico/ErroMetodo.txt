@@ -1,0 +1,9 @@
+class nova {
+	:: metodo (){}
+	:: metodo ()}
+	:: metodo ()
+	:: metodo (){
+	:: (){}
+	:: metodo){}
+	:: metodo({}
+}

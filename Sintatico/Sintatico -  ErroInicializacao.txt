@@ -1,0 +1,1 @@
+Linha 5 - Caracter esperado ; token incorreto }

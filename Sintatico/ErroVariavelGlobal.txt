@@ -1,0 +1,6 @@
+int a
+final int a = 0
+Object o
+class nova {
+
+}

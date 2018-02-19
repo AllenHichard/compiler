@@ -1,0 +1,5 @@
+class nova {
+	int a
+	final int a = 0
+	Object o
+}

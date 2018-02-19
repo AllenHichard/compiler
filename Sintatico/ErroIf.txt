@@ -1,0 +1,13 @@
+class nova {
+	:: metodo (){
+		if(){
+		}
+		if(a==c)
+		}
+	        if(a==b){
+
+		else {
+		}
+	}
+	
+}

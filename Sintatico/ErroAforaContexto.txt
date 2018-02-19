@@ -1,0 +1,13 @@
+int a
+"askldasjkl"
+int a
+class nova {
+	int a
+	"askldasjkl"
+	int a
+	:: Metodo(){
+		int a
+		"askldasjkl"
+		int a
+	}
+}

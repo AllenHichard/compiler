@@ -1,0 +1,5 @@
+class nova {
+	:: Metodo(){
+		for(){}
+	}
+}

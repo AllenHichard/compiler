@@ -1,0 +1,10 @@
+class Carro <-> Veiculo{
+	::bool main(){		
+		
+		< true;
+		<< true;
+		<< a;
+		<< ;
+		<< true	
+	}
+}

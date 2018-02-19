@@ -1,0 +1,2 @@
+Linha 3 - Caracter esperado int|float|bool|String|Identificador token incorreto DELIMITADOR
+Linha 4 - Caracter esperado IDENTIFICADOR token incorreto )
