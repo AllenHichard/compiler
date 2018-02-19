@@ -1,0 +1,1 @@
+Variável b da linha 4 Não foi declarada 

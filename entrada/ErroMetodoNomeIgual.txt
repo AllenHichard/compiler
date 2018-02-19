@@ -1,0 +1,12 @@
+class Moto{
+	
+	:: int metodo(){
+	
+	}
+	:: metodo(){
+	
+	}
+	
+
+}
+

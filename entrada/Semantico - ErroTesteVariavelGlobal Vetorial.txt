@@ -1,0 +1,4 @@
+A classe Object declarada na linha 2 Não existe
+Variável c declarada na linha 2 já foi declarada na linha 1
+A classe Object declarada na linha 3 Não existe
+Esperado um número inteiro maior que zero - Entrada lida 0 na linha 3

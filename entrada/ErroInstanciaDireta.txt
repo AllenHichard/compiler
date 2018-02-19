@@ -1,0 +1,13 @@
+class Moto{
+	:: int car(){	
+		Moto veiculo;
+		veiculo => Carro();
+	}
+	
+}
+
+
+
+
+
+

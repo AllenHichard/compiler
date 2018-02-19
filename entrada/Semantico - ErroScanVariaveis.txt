@@ -1,0 +1,3 @@
+Variável local b na linha 6 Não foi declarada
+Variável atributo d na linha 7 Não foi declarada
+Variável Global e na linha 8 Não foi declarada 

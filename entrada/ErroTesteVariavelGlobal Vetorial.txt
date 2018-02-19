@@ -1,0 +1,8 @@
+int a,b,c;
+Object c[8];
+Object j[0];
+
+class veiculo {
+	
+		
+}

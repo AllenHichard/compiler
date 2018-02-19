@@ -1,0 +1,1 @@
+Tentatica de relacionar variavel 3 do tipo NUMERO em variavel do tipo float na linha 1

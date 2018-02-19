@@ -1,0 +1,7 @@
+class veiculo <-> Moto{
+			
+}
+class Carro{
+
+}
+

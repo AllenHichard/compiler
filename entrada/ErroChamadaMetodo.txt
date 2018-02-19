@@ -1,0 +1,15 @@
+class Moto{
+	:: int car(){		
+		veiculo::metodo();
+	}
+	
+}
+class veiculo{
+	int c;
+	
+}
+
+
+
+
+

@@ -1,0 +1,5 @@
+class veiculo {
+	int a,b,c;
+	Object h[8][-4];
+	Object j[2], x[5][0];
+}

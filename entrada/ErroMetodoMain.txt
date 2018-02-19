@@ -1,0 +1,17 @@
+class Moto{
+	:: bool main(){		
+		
+	}
+	
+}
+class veiculo{
+	:: bool main(){		
+		
+	}	
+	
+}
+
+
+
+
+

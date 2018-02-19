@@ -1,0 +1,11 @@
+class veiculo{
+	:: int getC(int x){
+		int c;
+		<< 2;
+		c  = 3 + 4;
+	}
+	
+}
+
+
+

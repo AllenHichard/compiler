@@ -1,0 +1,6 @@
+class Veiculo{
+	:: metodo(){
+		int a;
+		print(2+"string");
+	}
+}

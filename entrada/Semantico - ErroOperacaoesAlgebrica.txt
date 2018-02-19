@@ -1,0 +1,3 @@
+Variavel esperada do tipo bool, excedida pelo tipo int
+Não é possível comparar variavel do tipo:  int com variavel do tipo: float na linha 7
+Não é possível comparar variavel do tipo:  int com variavel do tipo: string na linha 8

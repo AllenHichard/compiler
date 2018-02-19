@@ -1,0 +1,16 @@
+class veiculo{
+	int c;
+	:: int getC(int x){
+	
+	}
+	
+}
+
+class Moto{
+	:: int car(){
+		float c;		
+		c = veiculo::getC(c);
+	}
+	
+}
+

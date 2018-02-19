@@ -1,0 +1,2 @@
+Não é possível comparar variavel do tipo:  int com variavel do tipo: string na linha 5
+Não é possível comparar variavel do tipo:  bool com variavel do tipo: string na linha 8

@@ -1,0 +1,12 @@
+final int carro = getC(3);
+
+class veiculo{
+	:: int getC(float v){
+		int c;
+		<< 2;
+	}
+	:: int x(){
+
+	}
+	
+}
