@@ -1,8 +1,0 @@
-class Veiculo{
-	:: metodo(){
-		int i;
-		for (->i = 0; i<4; i = i+1){
-
-	        }
-}
-}

@@ -1,6 +1,0 @@
-
-class nova {
-	:: Metodo("dasds",){
-		
-	}
-}

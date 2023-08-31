@@ -1,1 +1,0 @@
-O metodo getC da classe veiculo Não pode ter retorno

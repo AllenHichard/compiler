@@ -1,0 +1,8 @@
+class nova {
+	int a[[];
+	int a[[;
+	int a[][;
+	int a[][];
+	int a[][9];
+	int a[;
+}

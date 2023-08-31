@@ -1,0 +1,15 @@
+final int i = 0;
+class Moto{
+	final int j = 0;
+	:: int car(){		
+		-->i = 4;
+		->j = 4;	
+	}
+	
+}
+
+
+
+
+
+

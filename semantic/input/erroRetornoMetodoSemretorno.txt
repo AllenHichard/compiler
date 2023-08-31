@@ -1,0 +1,10 @@
+class veiculo{
+	:: getC(int x){
+		int c;
+		<< 2;
+	}
+	
+}
+
+
+

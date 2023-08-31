@@ -1,8 +1,0 @@
-
-class nova {
-	:: Metodo(){
-		if(2+4==7){
-
-		}
-	}
-}

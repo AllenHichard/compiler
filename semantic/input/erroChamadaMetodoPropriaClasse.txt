@@ -1,0 +1,14 @@
+class veiculo{
+	:: int getC(int v){
+		float c;
+		x(c);
+		<< 2;
+	}
+	:: int x(int v){
+
+	}
+	
+}
+
+
+

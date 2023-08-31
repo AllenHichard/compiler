@@ -1,6 +1,0 @@
-
-class nova {
-	:: Metodo(){
-		objeto::metodo("sadas" a);
-	}
-}

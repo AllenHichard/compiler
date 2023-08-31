@@ -1,4 +1,0 @@
-Variável a declarada na linha 3 já foi declarada na linha 2
-Variavel esperada do tipo bool, excedida pelo tipo int
-A classe Object declarada na linha 5 Não existe
-A classe Object declarada na linha 6 Não existe

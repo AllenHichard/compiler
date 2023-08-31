@@ -1,6 +1,0 @@
-Linha 3 - Caracter esperado IDENTIFICADOR token incorreto (
-Linha 4 - Caracter esperado ( token incorreto a
-Linha 5 - Caracter esperado Value token incorreto ;
-Linha 5 - Caracter esperado , token incorreto ;
-Linha 5 - Caracter esperado ) token incorreto ;
-Linha 6 - Caracter esperado ; token incorreto s

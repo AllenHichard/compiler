@@ -1,0 +1,75 @@
+int a;
+int a,b,c;
+final int a = 4;
+final bool a = 3,b = 5.5,x =7;
+int a[9];
+int a[10], b[3];
+int a[10][3];
+Carro carro;
+Carro carro, moto;
+class Carro <-> Veiculo{
+	int a;
+	int a,b,c;
+	final int a = 4;
+	final bool a = 3,b = 5,x =7;
+	int a[10], b[3];
+	int a[10];
+	int a[10][4], b[3];
+	Carro carro;
+	Carro carro, moto;	
+	::bool main(){			
+		<< true;
+	}
+	::int metodo(int x, int a, Carro a, int a[], int a[][]){
+		Carro carro;
+		Carro carro, moto;
+		comprimento();
+		objeto::comprimento();
+		objeto::comprimento;
+		a = objeto::comprimento;
+		a = comprimento();
+		a = objeto::comprimento();
+		a = objeto::comprimento(a);
+		moto => Moto();
+		moto => Moto(a);
+		moto => Moto(a,2,vetor[2],"string", true, (3+6), 2==2, comprimento());
+		a = b;	
+		scan(a);
+		print(a);
+		int a[10];
+		int a[10], b[3];
+		int a[10], b[3];
+		for(i = 0; i<3; i = i+1){
+			if(i == 0 && (i < 4 || i < 3)){
+				i = 6;
+				i = a;
+				matriz[3][2] = vetor[3];
+				vetor[3] = a;
+				a = matriz[2][3] + matriz[2][1];
+				a = objeto::comprimento() + matriz[2][1];
+			}	 
+		}
+		<< 2 + b + 3;
+	}
+	:: metodo(){
+		scan(a,b);
+		print(a,"a","a\"");
+		int a;
+		for(i = 0; i<3; i = i+1){
+			<< true;
+			if(i == 0){
+				i = 6;
+				i = 4+6;
+				i = -(a+(-3 + x+6))*3 + 3;
+				i = i<4 && (7==8);
+				<< true;
+			} else{
+				i = "kagando o codigo";
+			}
+		}
+
+	}
+}
+class Carro{
+
+}

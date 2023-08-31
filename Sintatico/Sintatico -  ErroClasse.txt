@@ -1,7 +1,0 @@
-Linha 2 - Caracter inesperado class
-Linha 2 - Esperando um identificador - token incorreto }
-Linha 3 - Esperando um identificador - token incorreto {
-Linha 5 - Caracter esperado { token incorreto class
-Linha 5 - Caracter inesperado class
-Linha 5 - Esperando um identificador - token incorreto {
-Linha 5 - Caracter inesperado {

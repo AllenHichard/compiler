@@ -1,0 +1,18 @@
+class Veiculo{
+	
+	::  metodo(){
+		int i;
+		for(i = 0; i < 4 ;i = 3){
+			
+		}
+		<< 2;	
+	}
+	:: float metodo(){
+		int i;
+		for(i = 0; i < 4 ;i = 3){
+			
+		}
+		<< 2;	
+	}
+	
+}

@@ -1,2 +1,0 @@
-Tentatica de relacionar variavel c do tipo float em variavel do tipo int na linha 12
-Tentativa de relacionar metodo getC do tipo int em variavel do tipo float na linha 12

@@ -1,0 +1,7 @@
+Linha 2 - Caracter esperado ; token incorreto "askldasjkl"
+Linha 4 - Caracter esperado ; token incorreto class
+Linha 6 - Caracter esperado ; token incorreto "askldasjkl"
+Linha 8 - Caracter esperado ; token incorreto :
+Linha 10 - Caracter esperado ; token incorreto "askldasjkl"
+Linha 10 - Caracter esperado Codigo correto dentro do método token incorreto "askldasjkl"
+Linha 12 - Caracter esperado ; token incorreto }

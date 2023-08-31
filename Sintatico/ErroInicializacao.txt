@@ -1,7 +1,0 @@
-class nova {
-	:: METODO (){
-		a = ;
-		a = b==c
-	}
-	
-}

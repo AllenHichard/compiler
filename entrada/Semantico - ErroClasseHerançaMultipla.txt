@@ -1,1 +1,0 @@
-A classe Carro na linha 4 não pode ter herança

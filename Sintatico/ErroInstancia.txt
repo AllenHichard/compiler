@@ -1,8 +1,0 @@
-class Carro <-> Veiculo{
-	::bool main(){		
-		moto => (a);
-		moto => Moto a);
-		moto => Moto (;
-		moto => Moto ()s	
-	}
-}

@@ -1,0 +1,7 @@
+class veiculo {
+	int a,b,c;
+	int e,f,a;
+	final int x = 8, t = 3 + 2.4, v = 4==2;
+	Object h;
+	Object j, k;		
+}

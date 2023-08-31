@@ -1,0 +1,5 @@
+class a {
+class a }
+class {}
+class a
+class a {}

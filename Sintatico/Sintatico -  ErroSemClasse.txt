@@ -1,2 +1,0 @@
-Linha 0 - Caracter inesperado Fim
-Nenhuma classe declarada

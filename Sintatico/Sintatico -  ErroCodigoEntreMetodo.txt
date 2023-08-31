@@ -1,6 +1,0 @@
-Linha 7 excluir - int
-Linha 7 excluir - a
-Linha 7 excluir - ;
-Linha 11 excluir - int
-Linha 11 excluir - a
-Linha 11 excluir - ;

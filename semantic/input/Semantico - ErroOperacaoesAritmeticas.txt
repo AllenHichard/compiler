@@ -1,0 +1,2 @@
+Tentatica de relacionar variavel 2.5 do tipo NUMERO em variavel do tipo int na linha 7
+Tentatica de relacionar variavel "string" do tipo STRING em variavel do tipo int na linha 8

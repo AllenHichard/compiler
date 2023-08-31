@@ -1,8 +1,0 @@
-Linha 1 - Caracter esperado - token incorreto >
-Linha 2 - Caracter esperado > token incorreto cla
-Linha 3 - Esperando um identificador - token incorreto {
-Linha 4 - Caracter esperado { token incorreto }
-Linha 6 - Caracter inesperado class
-Linha 6 - Esperando um identificador - token incorreto <
-Linha 6 - Esperando um identificador - token incorreto {
-Linha 6 - Caracter inesperado {

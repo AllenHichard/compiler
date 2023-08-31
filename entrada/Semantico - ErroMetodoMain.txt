@@ -1,1 +1,0 @@
-erro ao declarar metodo main na linha 8 já existe um metodo main e a linguagem só permite um

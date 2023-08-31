@@ -1,0 +1,1 @@
+Linha 60 - Caracter esperado } token incorreto class

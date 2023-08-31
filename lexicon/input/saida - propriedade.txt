@@ -1,0 +1,21 @@
+< IDENTIFICADOR , a , 1 >
+< OP.ARITMETICO , / , 1 >
+< IDENTIFICADOR , b , 1 >
+< IDENTIFICADOR , a , 2 >
+< OP.ARITMETICO , / , 2 >
+< IDENTIFICADOR , b , 2 >
+< OP.ARITMETICO , / , 3 >
+< IDENTIFICADOR , a , 4 >
+< OP.ARITMETICO , / , 4 >
+< IDENTIFICADOR , a , 5 >
+< OP.ARITMETICO , - , 5 >
+< IDENTIFICADOR , b , 5 >
+< NUMERO , -3 , 7 >
+< NUMERO , -2 , 8 >
+< IDENTIFICADOR , allen , 9 >
+< RESERVADA , int , 9 >
+< IDENTIFICADOR , x , 9 >
+< STRING , "akashi" , 9 >
+
+
+ Arquivo Sem Erro - Sucesso

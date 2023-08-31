@@ -1,0 +1,10 @@
+class nova {
+	:: metodo(){
+		scan); 
+		scan();
+		scan(a);
+		scan(;
+		scan
+		scan(a,)    
+	}
+}

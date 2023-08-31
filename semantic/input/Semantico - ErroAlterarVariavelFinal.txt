@@ -1,0 +1,2 @@
+a variavel i não pode ser alterada  - erro na linha5
+a variavel j não pode ser alterada  - erro na linha6

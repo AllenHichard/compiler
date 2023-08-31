@@ -1,0 +1,156 @@
+﻿! -------------------------------------------------
+! Operação não valida
+! bool a;
+! a = (2+5) == 7; não será correlacionado aritmetica com lógica ou relacional para facilitar as proximas fases
+! só será aceito 1 menos, caso venha -- em qualquer caso será tratado como erro, não terá operações implicitas no código
+! só é permitido atribuição dentro de método
+! não teremos final Carro carro => Carro(); para facilitar nas proximas fases
+! if (true) é para colocar 
+! vai ter como comparar String e se tiver será o ==?
+! vai poder fazer if (2 == metodo) ou return dentro do if ou else ou dentro do for? pq não será possível garantir quando nao ter tipo o cara nao colocar return 3 por exemplo
+! ------------------------------------------------
+
+"Name"          = 'Linguagem de programação Jussara'
+"Author"        = 'Allen Hichard'
+"Version"       = 'Primeira versão'
+"About"         = 'Mi-Compiladores'
+"Start Symbol"  = <inicio>             
+! -------------------------------------------------
+! Character Sets
+! -------------------------------------------------
+{String Chars} = {Printable} + {HT} - ["\]
+! -------------------------------------------------
+! Terminals
+! -------------------------------------------------
+                           
+Identifier      =  {Letter}({AlphaNumeric} | '_')*                           
+StringLiteral   =  '"' ( {String Chars} | '\' {Printable} )* '"' 
+Numero          = {Number}+  ('.'{Number}+ )?
+booleano        =  'true' | 'false'                       
+                         
+! -------------------------------------------------
+! Start do programa   
+! -------------------------------------------------
+<inicio>        ::= <variavel ou constante ou Objeto> <classe>
+<Program>       ::= <for> | <if> | <classificarVariavel> | <criarVariavel> | <scan> | <print> | <Instancia> | <chamadaMetodospontovirgula> | <return> |
+
+                                    
+! -------------------------------------------------
+! Tratamendo de criação de classe e herança 
+! -------------------------------------------------
+
+<classe>                ::= 'class' Identifier <Heranca ou nao> '{' <variavel ou constante ou Objeto> <metodo> '}' <varias classes>
+<varias classes>        ::= <classe> |
+
+! -------------------------------------------------
+! variavel ou constante ou Objeto
+! -------------------------------------------------                                             
+
+<variavel ou constante ou Objeto>   ::= 'final' <Tipo> <TratamentoConstante> ';' <variavel ou constante ou Objeto>  | <Tipo> <TratamentoVariavel> | <Criar Objetos linha> <variavel ou constante ou Objeto>  |                                       
+<TratamentoVariavel>                ::=  <variaveis> ';' <variavel ou constante ou Objeto> 
+<TratamentoConstante>               ::=  Identifier '=' <operation>  <GeradorConstante> 
+<GeradorConstante>                  ::=  ',' <TratamentoConstante> |   
+<Tipo>                              ::=  'float' | 'int'| 'string' | 'bool'                                                
+<Heranca ou nao>                    ::= '<->' Identifier | 
+! -------------------------------------------------
+! Tratamento de métodos ::int numero(int n){codigo << return} ou numero(int n){codigo}
+! -------------------------------------------------                         
+<metodo>                            ::= '::' <com ou sem retorno>   |
+<com ou sem retorno>                ::=  <main> | <Tipo> Identifier '('<parametros>')' '{' <Program> '}' <metodo> | Identifier '('<parametros>')' '{' <Program> '}' <metodo>       
+<parametros>                        ::=  <Tipo> Identifier <fatoracaoParametro>  | Identifier Identifier <acrescentarParametros> |           
+<fatoracaoParametro>                ::=  <acrescentarParametros> | '['']' <parametroMatriz> <acrescentarParametros> 
+<parametroMatriz>                   ::=  '['']' | 
+<acrescentarParametros>             ::= ',' <parametros> |
+<return>                            ::=  '<<' <tiposReturn> ';' <Program>
+<tiposReturn>                       ::=   <operation>
+
+! -------------------------------------------------
+! Método principal chamado Main
+! -------------------------------------------------                       
+<main>                              ::= 'bool''main' '(' ')' '{'<Program>'}'<metodo>                                                
+! -------------------------------------------------
+! Tratamendo de operação de linha   
+! -------------------------------------------------
+<classificarVariavel>               ::= '-->' <operationLinhe> | '->' <operationLinhe> | <operationLinhe>
+<operationFor>                      ::=  Identifier '=' <operation> | <acessovetormatriz> '='  <operation>         
+<operationLinhe>                    ::=  <operationFor>  ';' <Program>                   
+<operation>                         ::=  <ExpressionAritmeticas> | <ExpressionLogicaRelacional>                                                 
+! -------------------------------------------------
+! Tratamendo do if else
+! -------------------------------------------------
+<if>                                ::= 'if' '(' <ExpressionLogicaRelacional> ')' '{' <Program> '}' <elseOpcional>
+<elseOpcional>                      ::= 'else' '{' <Program> '}' <program> | <Program>                 
+! -------------------------------------------------
+! Tratamendo do for -> identificador = numero/identificador operacao(+-*/%) numero/identificador
+! -------------------------------------------------                                     
+<for>                               ::= 'for' '(' <operationFor> ';' <ExpressionLogicaRelacional> ';' <operationFor> ')' '{' <program> '}' <program>
+! -------------------------------------------------
+! Tratamendo das expressões - a == b, a < 2 e assim vai  
+! -------------------------------------------------
+<ExpressionLogicaRelacional>        ::= <relacional> <variasExpression>
+<OperadorRelacional>                ::= '!=' | '==' | '<' | '>' | '>=' | '<='
+<OperadorLogico>                    ::= '&&' | '||'           
+<relacional>                        ::= <add Valor> <OperadorRelacional> <Add Valor> | '('  <ExpressionLogicaRelacional> ')' | '!''('  <ExpressionLogicaRelacional> ')'
+<Add Valor>                         ::= '-' <Value> |  <Value> 
+<variasExpression>                  ::= <OperadorLogico> <variasExp>  |
+<variasExp>                         ::=  <ExpressionLogicaRelacional>                          
+! -------------------------------------------------
+! Valores que servem para comparação entre os operadores.
+! -------------------------------------------------  
+<Value>                             ::= Identifier | Numero | <acessovetormatriz> | <chamadaMetodos> |  StringLiteral |  booleano    
+! -------------------------------------------------
+! Tratamendo das aritmeticas 4+4+(4+9)
+! -------------------------------------------------  
+<ExpressionAritmeticas>             ::= <relacionalAritmetico> 
+<OperadorAritmeticos>               ::= '+' | '*' | '/' | '%' | '-'          
+<relacionalAritmetico>              ::= <Add Valor> <fatoracaorelacionalAritmetico>
+                                    | '(' <Add Valor>  <OperadorAritmeticos> <relacionalAritmetico> ')' <continuar>
+                                    | '-''(' <Add Valor>  <OperadorAritmeticos> <relacionalAritmetico> ')' <continuar>
+<fatoracaorelacionalAritmetico>     ::=  <OperadorAritmeticos> <relacionalAritmetico>  |                               
+<continuar>                         ::= <OperadorAritmeticos> <relacionalAritmetico> |
+                     ! -------------------------------------------------
+! Tratamendo para criar variáveis sendo final ou constante
+! -------------------------------------------------  
+<criarVariavel>                     ::= <Tipo>  <variaveis> ';' <Program> | <Criar Objetos> 
+<variaveis>                         ::= Identifier <fatoracaovariaveis> 
+<fatoracaovariaveis>                ::= <acrescentar> |  '[' Numero ']' <fatoracaofatoracaovariaveis>
+<fatoracaofatoracaovariaveis>       ::= <acrescentar> | '[' Numero ']' <acrescentar>                             
+<acrescentar>                       ::= ',' <variaveis>  |                          
+! -------------------------------------------------
+! Entrada de dados
+! -------------------------------------------------
+<scan>                              ::= 'scan''('Identifier <Multiplas Leituras>')' ';' <Program>
+<Multiplas Leituras>                ::=  ',' Identifier <Multiplas Leituras> |       
+! -------------------------------------------------
+! Saída de dados
+! -------------------------------------------------                              
+<print>                             ::= 'print' '(' <impressao> <Multiplas Impressoes>')' ';' <Program>
+<impressao>                         ::= <operation>
+<Multiplas Impressoes>              ::= ',' <impressao> <Multiplas Impressoes> |
+! -------------------------------------------------
+!   Tratamento para vetor e para matriz acesso e armazenamento
+! ------------------------------------------------- 
+<acessovetormatriz>                 ::= Identifier '[' Numero ']' <fatoracaoacessovetormatriz>
+<fatoracaoacessovetormatriz>        ::= '[' Numero ']' |                     
+! -------------------------------------------------
+!   Instanciar objetos e criando Objetos
+! -------------------------------------------------
+<Criar Objetos>                     ::= <Criar Objetos linha> <Program> 
+<Criar Objetos linha>               ::=  Identifier Identifier <varios Objetos> ';'
+<varios Objetos>                    ::= ',' Identifier  <varios Objetos> |     
+                                                   
+<Instancia>                         ::= Identifier '=''>'Identifier '(' <passagemParametros> ')'';' <Program>
+! -------------------------------------------------
+!   Instanciar objetos e criando Objetos
+! -------------------------------------------------
+<passagemParametros>                ::=   <operation> <mais passagens> |
+<mais passagens>                    ::=   ',' <passagemParametros>  |  
+! -------------------------------------------------
+!   chamada de métodos ou atributos
+! -------------------------------------------------   
+<chamadaMetodospontovirgula>        ::=   <chamadaMetodos> ';'  <Program>
+<chamadaMetodos>                    ::=   Identifier <fatoracaochamadaMetodos> 
+<fatoracaochamadaMetodos>           ::=  '::' Identifier <fatoracaodafatoracao> | '(' <passagemParametros> ')' 
+<fatoracaodafatoracao>              ::=   '(' <passagemParametros> ')' |                          
+                   
+                                                 

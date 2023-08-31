@@ -1,3 +1,0 @@
-Linha 8 - Caracter esperado { token incorreto }
-Linha 0 excluir - Fim
-Linha 0 - Caracter esperado } token incorreto Fim

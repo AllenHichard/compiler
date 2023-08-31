@@ -1,7 +1,0 @@
-class veiculo {
-			
-}
-class veiculo{
-
-}
-

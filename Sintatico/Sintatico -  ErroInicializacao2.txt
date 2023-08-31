@@ -1,3 +1,0 @@
-Linha 5 - Caracter esperado ; token incorreto b
-Linha 6 - Caracter esperado ; token incorreto c
-Linha 8 - Caracter esperado ; token incorreto }

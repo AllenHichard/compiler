@@ -1,0 +1,10 @@
+int d;
+class Veiculo{
+	int c;
+	:: metodo(){
+		int a;
+		scan(a,b);
+		scan(->d);
+		scan(-->e);
+	}
+}

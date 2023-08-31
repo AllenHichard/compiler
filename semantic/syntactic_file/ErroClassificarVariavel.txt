@@ -1,0 +1,6 @@
+class nova {
+	:: metodo(){
+		-a = a;
+		--a = a;
+	}
+}

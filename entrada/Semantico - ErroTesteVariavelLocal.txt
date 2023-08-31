@@ -1,3 +1,0 @@
-Variável a declarada na linha 5 já foi declarada na linha 4
-A classe Object declarada na linha 6 Não existe
-A classe Object declarada na linha 7 Não existe

@@ -1,6 +1,0 @@
-class Veiculo{
-	:: metodo(){
-		int a;
-		print(->b);
-	}
-}

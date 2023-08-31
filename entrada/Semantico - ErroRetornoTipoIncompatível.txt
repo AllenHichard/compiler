@@ -1,3 +1,0 @@
-O metodo metodo da classe Veiculo Não pode ter retorno
-O método metodo da linha 10 já existe na classe Veiculo
-Tentatica de relacionar variavel 2 do tipo NUMERO em variavel do tipo float na linha 15

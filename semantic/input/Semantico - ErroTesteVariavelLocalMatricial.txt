@@ -1,0 +1,6 @@
+A classe Object declarada na linha 4 Não existe
+Esperado um número inteiro maior que zero - Entrada lida -4 na linha 4
+A classe Object declarada na linha 5 Não existe
+Variável [ declarada na linha 5 já foi declarada na linha 4
+Variável ] declarada na linha 5 já foi declarada na linha 4
+Esperado um número inteiro maior que zero - Entrada lida 0 na linha 5

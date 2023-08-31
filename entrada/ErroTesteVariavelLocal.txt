@@ -1,9 +1,0 @@
-class veiculo {
-	
-	:: bool metodo(){
-		int a,b,c;
-		int e,f,a;
-		Object h;
-		Object j, k;
-	}		
-}

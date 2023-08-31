@@ -1,0 +1,10 @@
+class nova {
+	:: Metodo (){
+		comprimento();
+		comprimento(;
+		comprimento()
+		objeto:comprimento();
+		objeto:();
+		objeto:comprimento(;
+	}
+}

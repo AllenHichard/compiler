@@ -1,0 +1,10 @@
+int a;
+int a,b,c;
+final int a = 4;
+
+class Carro <-> Veiculo{
+	
+}
+class Carro{
+
+}

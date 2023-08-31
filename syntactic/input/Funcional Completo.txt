@@ -1,0 +1,67 @@
+// nao tem array de objeto ainda
+// print vazio
+class Carro <-> Veiculo{
+	
+	::bool main(){		
+		a = objeto::comprimento() + matriz[2][1];
+		moto => Moto(a);	
+		<< true;
+
+	}
+	::Carro metodo(int x[], int a){
+		Carro carro;
+		Carro aviao, moto[9];
+		comprimento();
+		objeto::comprimento();
+		objeto::comprimento;
+		a = objeto::comprimento;
+		a = comprimento();
+		a = objeto::comprimento();
+		a = objeto::comprimento(a);
+		moto => Moto();
+		moto => Moto(a);
+		a = b;	
+		scan(a);
+		print(a);
+		int a[10];
+		int a[10], b[3];
+		int a[10], b[3];
+		for(i = 0; i<3; i = i+1){
+			if(i == 0 && (i < 4 || i < 3)){
+				i = 6;
+				i = a;
+				matriz[3][2] = vetor[3];
+				vetor[3] = a;
+				a = matriz[2][3] + matriz[2][1];
+				a = objeto::comprimento() + matriz[2][1];
+			}	 
+		}
+		
+	}
+	:: metodo(){
+		scan(a,b);
+		print(a,"a","a\"");
+		int a;
+		for(i = 0; i<3; i = i+1){
+			<< true;
+			if(i == 0){
+				i = 6;
+				i = 2;
+				i = -(a+(-3 + x+6))*3 + 3;
+				i = i<4 && (7==8);
+				<< true;
+			} else{
+				i = "kagando o codigo";
+			}
+		}
+	}
+	:: medodo(){
+	
+	}
+
+
+}
+class Carro{
+	int a;
+	int b;
+}

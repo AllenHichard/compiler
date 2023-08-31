@@ -1,0 +1,9 @@
+class Moto{
+	
+	:: Aviao metodo(){
+	
+	}
+	
+
+}
+

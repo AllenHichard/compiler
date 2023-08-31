@@ -1,0 +1,6 @@
+class c <> cla{}
+class c <- cla{}
+class c <-> {}
+class c <-> cla}
+class c <-> cla{
+class c <-> cla{}

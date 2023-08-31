@@ -1,0 +1,5 @@
+Linha 3 - Caracter esperado Inicializar token incorreto )
+Linha 3 - Caracter esperado ; token incorreto )
+Linha 3 - Caracter esperado expressao relacional ou logica token incorreto )
+Linha 3 - Caracter esperado ; token incorreto DELIMITADOR
+Linha 3 - Caracter esperado Mudar valor token incorreto )

@@ -1,9 +1,0 @@
-class a{
-
-::bool test(int x,){}
-::bool test(int){}
-::bool test(){}
-
-
-
-}

@@ -1,4 +1,0 @@
-A classe Object declarada na linha 3 Não existe
-Esperado um número inteiro maior que zero - Entrada lida -4 na linha 3
-A classe Object declarada na linha 4 Não existe
-Esperado um número inteiro maior que zero - Entrada lida 0 na linha 4

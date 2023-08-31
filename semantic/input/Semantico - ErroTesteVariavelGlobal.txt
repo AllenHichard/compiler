@@ -1,0 +1,4 @@
+Variável a declarada na linha 2 já foi declarada na linha 1
+Variavel esperada do tipo bool, excedida pelo tipo int na linha 3
+A classe Object declarada na linha 4 Não existe
+A classe Object declarada na linha 5 Não existe

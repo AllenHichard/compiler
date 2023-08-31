@@ -1,2 +1,0 @@
-Linha 3 - Caracter esperado - | > token incorreto a
-Linha 4 - Caracter esperado > token incorreto a

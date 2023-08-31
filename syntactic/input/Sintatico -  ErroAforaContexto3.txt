@@ -1,0 +1,3 @@
+Linha 3 - Caracter esperado int|float|bool|String|Identificador token incorreto "dasds"
+Linha 3 - Caracter esperado Parametro Antes da Virgula token incorreto ,
+Linha 3 - Caracter esperado int|float|bool|String|Identificador token incorreto DELIMITADOR

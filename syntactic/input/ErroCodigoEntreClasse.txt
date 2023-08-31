@@ -1,0 +1,13 @@
+final int a = 0;
+
+class nova {
+	
+}
+
+int a;
+
+class nova2{
+
+}
+
+int b;

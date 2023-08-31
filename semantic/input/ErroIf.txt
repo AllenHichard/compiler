@@ -1,0 +1,12 @@
+bool d;
+class Veiculo{
+	int c;
+	:: metodo(){
+		if(->c=="string"){
+				
+		}
+		if(-->d=="string"){
+				
+		}
+	}
+}

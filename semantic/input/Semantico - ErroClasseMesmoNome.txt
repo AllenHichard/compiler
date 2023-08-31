@@ -1,0 +1,1 @@
+A classe veiculo da linha 4 já existe

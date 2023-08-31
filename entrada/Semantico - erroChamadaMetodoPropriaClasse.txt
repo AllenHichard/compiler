@@ -1,1 +1,0 @@
-Tentatica de relacionar variavel c do tipo float em variavel do tipo int na linha 4
